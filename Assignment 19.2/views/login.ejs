@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <title>Login</title>
+
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="page-header">
+                        <h1>Login</h1>
+                    </div>
+                </div>    
+            </div>
+
+            <div class="row">
+                    <div class="col-md-8">
+                            <h2>Welcome Guest!</h2>
+                            <p>
+                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            </p>
+                        </div>
+                <div class="col-md-4">
+                    <form action = "http://localhost:3000/AboutMe"  onsubmit="return login()">
+                        <div class="form-group">
+                            <label for="username" class="control-label">username</label>
+                            <input type="text" id="username" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="control-label">password</label>
+                            <input type="password" id="password" class="form-control">    
+                        </div>
+
+                        <button class="btn btn-primary btn-lg">Login</button>
+                        <a class="btn btn-link" href="http://localhost:3000/Register">Register</a>
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <p>
+                        <hr>
+                        <small>&copy; Acadgild</small>
+                    </p>
+                </div>
+            </div>
+            
+        </div>        
+		  <script type="text/javascript" src="/static/scripts/loginscript.js"></script>
+	</body>
+</html>
